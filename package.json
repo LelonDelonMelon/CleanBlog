@@ -1,0 +1,31 @@
+{
+  "name": "cleanblog",
+  "version": "1.0.0",
+  "description": "Blog web app Starter",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" :" nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LelonDelonMelon/CleanBlog.git"
+  },
+  "keywords": [
+    "Express",
+    "Node"
+  ],
+  "author": "Burak Katı",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LelonDelonMelon/CleanBlog/issues"
+  },
+  "homepage": "https://github.com/LelonDelonMelon/CleanBlog#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "prettier": "3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.9"
+  }
+}
