@@ -46,18 +46,22 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
-        <form novalidate>
+        <form novalidate method="POST" action="/add_post">
           <div class="control-group">
             <div class="form-group floating-label-form-group controls">
               <label>Post Title</label>
-              <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
+              <input type="text" class="form-control" name="PhotoTitle" placeholder="Photo Title" id="name" required data-validation-required-message="Please enter your name.">
               <p class="help-block text-danger"></p>
             </div>
           </div>
           <div class="control-group">
             <div class="form-group floating-label-form-group controls">
-              <label>Post Detail</label>
-              <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+              <label>Photo Detail</label>
+              <textarea rows="5" class="form-control" name="description" placeholder="Photo Description" id="message" required data-validation-required-message="Please enter a message."></textarea>
+              <div class="form-group floating-label-form-group controls rounded-0">
+              
+                <input type="file" class="form-control-file"  name="image" required >
+              </div>
               <p class="help-block text-danger"></p>
             </div>
           </div>
